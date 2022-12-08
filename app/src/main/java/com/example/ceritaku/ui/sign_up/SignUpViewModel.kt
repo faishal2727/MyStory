@@ -1,0 +1,1 @@
+package com.example.ceritaku.ui.sign_upimport androidx.lifecycle.ViewModelimport com.example.ceritaku.data.AppRepositoryclass SignUpViewModel(private val appRepository: AppRepository): ViewModel() {    fun register(name: String,email:String,password:String)= appRepository.authRegister(name, email, password)}

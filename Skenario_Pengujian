@@ -1,0 +1,47 @@
+*** LoginViewModelTest ***
+Saat Login Berhasil
+-Memastikan mengembalikan Result.Success
+-Memastikan data tidak null
+
+Saat Login Gagal
+-Memastikan mengembalikan Result.Error
+--------------------------------------------
+*** SignUpViewModelTest ***
+Saat SignUp Berhasil
+-Memastikan mengembalikan Result.Success
+-Memastikan data tidak null
+
+Saat SignUp Gagal
+-Memastikan mengembalikan Result.Error
+--------------------------------------------
+*** HomeViewModelTest ***
+Saat berhasil menampilkan list story
+-memastikan story tidak null
+-memastikan story sama dengan data dummy
+-memastikan jumlah data sama dengan data dummy
+-memastikan nama pertama dari story sama dengan data dummy
+
+--------------------------------------------
+*** MapsViewModelTest ***
+Saat berhasil menampilkan story
+-Memastikan mengembalikan Result.Success
+-Memastikan data tidak null
+
+Saat gagal menampilkan story
+-Memastikan mengembalikan Result.Error
+--------------------------------------------
+*** UploadViewModelTest ***
+saat upload story dengan lokasi berhasil
+-Memastikan mengembalikan Result.Success
+-Memastikan data tidak null
+
+saat upload story dengan lokasi gagal
+-Memastikan mengembalikan Result.Error
+
+saat upload story tanpa lokasi berhasil
+-Memastikan mengembalikan Result.Success
+-Memastikan data tidak null
+
+saat upload story tanpa lokasi gagal
+-Memastikan mengembalikan Result.Error
+

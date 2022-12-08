@@ -1,0 +1,1 @@
+package com.example.ceritaku.utilimport android.Manifestclass Constanta {    companion object{        const val TIME_SPLASH: Long = 2000        val REQ_PERMISSION = arrayOf(Manifest.permission.CAMERA)        const val REQ_CODE = 23        const val BASE_URL= "https://story-api.dicoding.dev/v1/"    }}

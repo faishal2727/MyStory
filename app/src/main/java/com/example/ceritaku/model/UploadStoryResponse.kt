@@ -1,0 +1,1 @@
+package com.example.ceritaku.modeldata class UploadStoryResponse(    val error: Boolean,    val message: String)

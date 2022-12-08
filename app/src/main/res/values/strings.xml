@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cerita Ku</string>
+    <string name="validasi_password">My Story App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum Punya Akun ?</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun ?</string>
+    <string name="created_at">12-11-2022</string>
+    <string name="desc">Ini adalah deskripsi</string>
+    <string name="alert_message">Apakah Anda Yakin Ingin Keluar ?</string>
+    <string name="alert_title">Peringatan</string>
+    <string name="alert_negativ">Tidak</string>
+    <string name="alert_positive">Iya</string>
+    <string name="is_blank">Belum diisi</string>
+    <string name="no_response">Tidak Dapat Respon</string>
+    <string name="wajib_isi_desc">Deskripsi Wajib diisi</string>
+    <string name="sukses_upload">Upload Success!</string>
+    <string name="masukan_gambar">Silahkan Masukan Gambar</string>
+    <string name="sampai_jumpa">Sampai Jumpa Lagi</string>
+    <string name="masukkan_deskripsi">Masukkan Deskripsi</string>
+    <string name="pilih_gambar">Silahkan Pilih Gambar</string>
+    <string name="camera">Camera</string>
+    <string name="galery">Galery</string>
+    <string name="email_validasi">Email Tidak Valid</string>
+    <string name="password_validasi">Password Minimal 6 Karakter</string>
+    <string name="upload">Upload Gambar</string>
+    <string name="sukses_daftar">Sukses Mendaftar Akun</string>
+    <string name="lokasi_tidak_ada">Lokasi Tidak Ada</string>
+    <string name="izin_tidak_ada">Tidak Mendapatkan Izin</string>
+    <string name="sukses">Sukses</string>
+    <string name="story_upload">Story Ter Upload</string>
+</resources>

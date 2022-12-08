@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivDetail"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:transitionName="avatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/tvUsernameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transitionName="name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/username"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivDetail" />
+
+        <TextView
+            android:id="@+id/tvCreatedDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/created_at"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvUsernameDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tvUsernameDetail" />
+
+        <TextView
+            android:id="@+id/tvDescDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:transitionName="desc"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvCreatedDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tvCreatedDetail" />
+
+        <ProgressBar
+            android:id="@+id/progressBarDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Lat : "
+            app:layout_constraintStart_toStartOf="@+id/tvDescDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescDetail" />
+
+        <TextView
+            android:id="@+id/tvDetailLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/tvLat"
+            app:layout_constraintTop_toTopOf="@+id/tvLat" />
+
+        <TextView
+            android:id="@+id/tvLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Lon :"
+            app:layout_constraintStart_toStartOf="@+id/tvLat"
+            app:layout_constraintTop_toBottomOf="@+id/tvLat" />
+
+        <TextView
+            android:id="@+id/tvDetailLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/tvLon"
+            app:layout_constraintTop_toTopOf="@+id/tvLon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

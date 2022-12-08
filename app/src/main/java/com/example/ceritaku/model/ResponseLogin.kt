@@ -1,0 +1,1 @@
+package com.example.ceritaku.modelimport android.os.Parcelableimport kotlinx.parcelize.Parcelize@Parcelizedata class ResponseLogin(    val error: Boolean,    val message: String,    val loginResult: ResponseLoginResult? = null) : Parcelable@Parcelizedata class ResponseLoginResult(    val userId: String,    val name: String,    val token: String) : Parcelable
