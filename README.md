@@ -8,5 +8,5 @@ Login Screen | SignUp Screen | Home Screen
 
 | Maps Screen | Upload Screen
 |:--------:|:--------:
-<img src="https://github.com/faishal2727/MyStory/blob/main/ss/Nothing%20Phone%201-4.png" width=300/> | <img src="hhttps://github.com/faishal2727/MyStory/blob/main/ss/Nothing%20Phone%201.png" width=300/>
+<img src="https://github.com/faishal2727/MyStory/blob/main/ss/Nothing%20Phone%201-4.png" width=300/> | <img src="https://github.com/faishal2727/MyStory/blob/main/ss/Nothing%20Phone%201.png" width=300/>
 
