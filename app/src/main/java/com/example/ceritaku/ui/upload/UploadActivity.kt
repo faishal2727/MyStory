@@ -254,11 +254,8 @@ class UploadActivity : AppCompatActivity() {
                             if (it != null) {
                                 showLoading(false)
                                 successAlert()
-                                Toast.makeText(this, "Sukses Upload Story", Toast.LENGTH_SHORT)
-                                    .show()
                             } else {
-                                Toast.makeText(this, "Gagal Upload Story", Toast.LENGTH_SHORT)
-                                    .show()
+                                Toast.makeText(this, "Gagal Upload Story", Toast.LENGTH_SHORT).show()
                             }
                         }
                     }
@@ -290,8 +287,7 @@ class UploadActivity : AppCompatActivity() {
                             }
                         }
                     } else {
-                        Toast.makeText(this, getString(R.string.masukan_gambar), Toast.LENGTH_SHORT)
-                            .show()
+                        Toast.makeText(this, getString(R.string.masukan_gambar), Toast.LENGTH_SHORT).show()
                     }
                 }
             }

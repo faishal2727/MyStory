@@ -18,6 +18,7 @@
     <string name="no_response">Tidak Dapat Respon</string>
     <string name="wajib_isi_desc">Deskripsi Wajib diisi</string>
     <string name="sukses_upload">Upload Success!</string>
+    <string name="error_message">Upload Event Gagal !</string>
     <string name="masukan_gambar">Silahkan Masukan Gambar</string>
     <string name="sampai_jumpa">Sampai Jumpa Lagi</string>
     <string name="masukkan_deskripsi">Masukkan Deskripsi</string>
